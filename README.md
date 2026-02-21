@@ -18,7 +18,7 @@ The core idea is to clean and preprocess textual data, extract meaningful featur
 - Apply NLP preprocessing techniques
 - Convert text into numerical features using **TF-IDF**
 - Train and evaluate ML classification models
-- Perform error analysis and extract meaningful insights
+- Perform error analysis and extract meaningful insights.
 
 ---
 
