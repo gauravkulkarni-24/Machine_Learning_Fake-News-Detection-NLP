@@ -35,4 +35,72 @@ Each file contains:
 - `subject` – Category of news  
 - `date` – Publication date  
 
+---
 
+## 🛠️ Technologies Used
+
+- **Python**
+- **Pandas, NumPy**
+- **NLTK**
+- **Scikit-learn**
+- **Matplotlib, Seaborn**
+- **Jupyter Notebook**
+
+---
+
+## 🔍 Project Workflow
+
+1. **Data Loading & Labeling**
+   - Merged fake and real news datasets
+   - Assigned labels (0 = Fake, 1 = Real)
+
+2. **Data Cleaning & Preprocessing**
+   - Lowercasing text
+   - Removing punctuation, numbers, and HTML tags
+   - Stopword removal
+   - Lemmatization
+
+3. **Exploratory Data Analysis (EDA)**
+   - Label distribution
+   - Word count analysis
+   - Frequent word comparison
+
+4. **Feature Extraction**
+   - TF-IDF Vectorization
+   - Unigrams and bigrams
+
+5. **Model Building**
+   - Multinomial Naive Bayes
+   - Random Forest Classifier (comparison)
+
+6. **Model Evaluation**
+   - Accuracy Score
+   - Classification Report
+   - Confusion Matrix
+   - ROC Curve & AUC Score
+
+7. **Error Analysis**
+   - Analysis of misclassified articles
+   - Understanding false positives and false negatives
+
+---
+
+## 📊 Model Performance
+
+| Model | Accuracy |
+|------|---------|
+| Naive Bayes | ⭐ High |
+| Random Forest | Moderate |
+
+> Naive Bayes performed better due to its suitability for high-dimensional sparse text data.
+
+---
+
+## 📌 Key Insights
+
+- Fake news articles often use **sensational and emotional language**
+- Real news articles tend to be **formal and factual**
+- TF-IDF significantly improves text representation
+- Naive Bayes is highly effective for NLP classification tasks
+
+---
